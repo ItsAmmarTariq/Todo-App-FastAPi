@@ -1,8 +1,8 @@
 import datetime
 import re
-from pydantic import BaseModel, field_validator, validator
+from pydantic import BaseModel, field_validator
 from typing import Optional
-from sqlalchemy import DateTime
+from datetime import datetime 
 
 class UserBase(BaseModel):
     name:str
@@ -48,13 +48,18 @@ class TodoCreate(BaseModel):
     title: str
     description: Optional[str] =None
     completed: bool = False
-    due_date: Optional[datetime.datetime] = None
+    due_date: Optional[datetime] = None
+    
 
 class Todo(TodoCreate):
     id: int
-    created_at: str
-    updated_at: str
+    created_at: datetime
+    updated_at: datetime
     user_id: int
+
+    
+
+
 
     class Config:
         from_attributes = True

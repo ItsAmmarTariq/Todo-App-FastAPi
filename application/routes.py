@@ -1,7 +1,8 @@
 from datetime import timedelta
-
+from datetime import datetime
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
+from sqlalchemy import desc
 from sqlalchemy.orm import Session
 
 from application import auth, models, schemas, security
@@ -47,11 +48,79 @@ async def login_for_access_token(
     return {"access_token": access_token, "token_type": "bearer"}
 
 
-@router.get("/get")
-async def get(
-    current_user: schemas.UserInDB = Depends(auth.get_current_user),
+
+
+@router.post("/create-todo/", response_model=schemas.Todo)
+async def create_todo(todo_create: schemas.TodoCreate, current_user: schemas.UserInDB = Depends(auth.get_current_user), db: Session = Depends(get_db)):
+    todo = models.Todo(**todo_create.model_dump(), user_id=current_user.id)
+    db.add(todo)
+    db.commit()
+    db.refresh(todo)
+    return todo
+
+
+
+@router.get("/get-todo/{todo_id}", response_model=schemas.Todo)
+async def read_todo(todo_id: int, db: Session = Depends(get_db), current_user: schemas.UserInDB = Depends(auth.get_current_user)):
+    user_id=current_user.id
+
+    todo = db.query(models.Todo).filter(models.Todo.id == todo_id and models.Todo.user_id==user_id).first()
+    if todo is None:
+        raise HTTPException(status_code=404, detail="Todo not found")
+    return todo
+
+
+
+@router.get("/get-all-todos/", response_model=list[schemas.Todo])
+async def read_all_todos(current_user: schemas.UserInDB = Depends(auth.get_current_user), db: Session = Depends(get_db)):
+    todos = db.query(models.Todo).filter(models.Todo.user_id == current_user.id).order_by(models.Todo.due_date,desc(models.Todo.due_date.is_(None))).all()
+
+    return todos
+
+
+
+@router.put("/update-todo/{todo_id}", response_model=schemas.Todo)
+async def update_todo(
+    todo_id: int,
+    todo_update: schemas.TodoCreate,
+    db: Session = Depends(get_db),
+    current_user: schemas.UserInDB = Depends(auth.get_current_user)
 ):
-    return {
-        "conversation": "This is a secure conversation!",
-        "current_user": current_user.username,
-    }
+    db_todo = db.query(models.Todo).filter(models.Todo.id == todo_id).first()
+    if db_todo is None:
+        raise HTTPException(status_code=404, detail="Todo not found")
+
+    # Update only the fields provided in todo_update
+    for key, value in todo_update.dict().items():
+        setattr(db_todo, key, value)
+
+    db_todo.updated_at = datetime.utcnow()
+
+    db.commit()
+    db.refresh(db_todo)
+    return db_todo
+
+
+
+# @router.put("/update-todo/{todo_id}", response_model=schemas.Todo)
+# async def update_todo(todo_id: int, todo_update: schemas.TodoCreate, db: Session = Depends(get_db),current_user: schemas.UserInDB = Depends(auth.get_current_user)):
+#     db_todo = db.query(models.Todo).filter(models.Todo.id == todo_id).first()
+#     if db_todo is None:
+#         raise HTTPException(status_code=404, detail="Todo not found")
+#     for key, value in todo_update.dict().items():
+#         setattr(db_todo, key, value)
+#     db.commit()
+#     db.refresh(db_todo)
+#     return db_todo
+
+
+
+
+@router.delete("/delete-todo/{todo_id}", response_model=schemas.Todo )
+async def delete_todo(todo_id: int, db: Session = Depends(get_db), current_user: schemas.UserInDB = Depends(auth.get_current_user)):
+    todo = db.query(models.Todo).filter(models.Todo.id == todo_id).first()
+    if todo is None:
+        raise HTTPException(status_code=404, detail="Todo not found")
+    db.delete(todo)
+    db.commit()
+    return todo
