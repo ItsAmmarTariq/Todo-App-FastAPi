@@ -1,0 +1,40 @@
+2024-01-25 16:58:23,917 - INFO - Api started ......
+2024-01-25 17:06:00,575 - INFO - Api started ......
+2024-01-25 17:07:24,209 - INFO - request to register endpoint
+2024-01-25 17:07:24,236 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-25 17:07:25,013 - INFO - <application.models.User object at 0x00000255CC5476B0> is created
+2024-01-25 17:10:49,691 - INFO - Api started ......
+2024-01-25 17:10:57,336 - INFO - request to register endpoint
+2024-01-25 17:12:09,711 - INFO - request to register endpoint
+2024-01-25 17:12:09,715 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-25 17:12:10,288 - INFO - Kashif is created
+2024-01-25 17:28:59,757 - INFO - Api started ......
+2024-01-25 17:33:11,329 - INFO - request to register endpoint
+2024-01-25 17:33:11,358 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-25 17:33:11,960 - INFO -  new user Muhammad Safdar is created
+2024-01-25 17:34:26,431 - INFO - request to token endpoint
+2024-01-25 17:34:53,658 - INFO - request to token endpoint
+2024-01-25 17:34:54,249 - INFO - token generated
+2024-01-25 17:35:32,068 - INFO - request to token endpoint
+2024-01-25 17:35:32,618 - INFO - token generated
+2024-01-25 17:36:17,887 - INFO - request to create-todo endpoint
+2024-01-25 17:36:17,921 - INFO - new todo new todo has created 
+2024-01-25 17:36:55,786 - INFO - request to get-todo endpoint
+2024-01-25 17:36:55,790 - INFO - request to get-todo endpoint done execution
+2024-01-25 17:37:27,961 - INFO - request to get-all-todo endpoint
+2024-01-25 17:37:27,966 - INFO - request to get-all-todo endpoint completed
