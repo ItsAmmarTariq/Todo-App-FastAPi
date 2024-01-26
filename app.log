@@ -1,40 +1,667 @@
-2024-01-25 16:58:23,917 - INFO - Api started ......
-2024-01-25 17:06:00,575 - INFO - Api started ......
-2024-01-25 17:07:24,209 - INFO - request to register endpoint
-2024-01-25 17:07:24,236 - WARNING - (trapped) error reading bcrypt version
+2024-01-26 12:28:57,165 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 12:28:57,171 - INFO - request to register endpoint
+2024-01-26 12:28:57,250 - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-01-25 17:07:25,013 - INFO - <application.models.User object at 0x00000255CC5476B0> is created
-2024-01-25 17:10:49,691 - INFO - Api started ......
-2024-01-25 17:10:57,336 - INFO - request to register endpoint
-2024-01-25 17:12:09,711 - INFO - request to register endpoint
-2024-01-25 17:12:09,715 - WARNING - (trapped) error reading bcrypt version
+2024-01-26 12:28:57,563 - INFO -  new user Karan is created
+2024-01-26 12:28:57,565 - INFO - HTTP Request: POST http://testserver/register/ "HTTP/1.1 200 OK"
+2024-01-26 12:29:46,175 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 12:29:46,179 - INFO - request to register endpoint
+2024-01-26 12:32:55,926 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 12:32:55,935 - INFO - request to register endpoint
+2024-01-26 12:32:56,016 - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-01-25 17:12:10,288 - INFO - Kashif is created
-2024-01-25 17:28:59,757 - INFO - Api started ......
-2024-01-25 17:33:11,329 - INFO - request to register endpoint
-2024-01-25 17:33:11,358 - WARNING - (trapped) error reading bcrypt version
+2024-01-26 12:32:56,486 - INFO -  new user Arjun is created
+2024-01-26 12:32:56,486 - INFO - HTTP Request: POST http://testserver/register/ "HTTP/1.1 200 OK"
+2024-01-26 12:34:38,946 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 12:34:38,952 - INFO - request to register endpoint
+2024-01-26 12:35:23,614 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 12:35:23,616 - INFO - request to register endpoint
+2024-01-26 12:35:35,808 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 12:35:35,812 - INFO - request to register endpoint
+2024-01-26 12:35:35,899 - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-01-25 17:33:11,960 - INFO -  new user Muhammad Safdar is created
-2024-01-25 17:34:26,431 - INFO - request to token endpoint
-2024-01-25 17:34:53,658 - INFO - request to token endpoint
-2024-01-25 17:34:54,249 - INFO - token generated
-2024-01-25 17:35:32,068 - INFO - request to token endpoint
-2024-01-25 17:35:32,618 - INFO - token generated
-2024-01-25 17:36:17,887 - INFO - request to create-todo endpoint
-2024-01-25 17:36:17,921 - INFO - new todo new todo has created 
-2024-01-25 17:36:55,786 - INFO - request to get-todo endpoint
-2024-01-25 17:36:55,790 - INFO - request to get-todo endpoint done execution
-2024-01-25 17:37:27,961 - INFO - request to get-all-todo endpoint
-2024-01-25 17:37:27,966 - INFO - request to get-all-todo endpoint completed
+2024-01-26 12:35:36,205 - INFO -  new user Arjun is created
+2024-01-26 12:35:36,205 - INFO - HTTP Request: POST http://testserver/register/ "HTTP/1.1 200 OK"
+2024-01-26 14:28:05,613 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:28:05,623 - INFO - request to register endpoint
+2024-01-26 14:31:21,473 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:31:21,484 - INFO - request to register endpoint
+2024-01-26 14:31:21,569 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 14:31:21,881 - INFO -  new user Ali Haider is created
+2024-01-26 14:31:21,881 - INFO - HTTP Request: POST http://testserver/register/ "HTTP/1.1 200 OK"
+2024-01-26 14:42:21,912 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:42:21,927 - INFO - request to register endpoint
+2024-01-26 14:43:07,213 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:44:30,268 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:46:49,427 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:47:18,439 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:48:31,389 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:48:31,414 - INFO - request to token endpoint
+2024-01-26 14:48:31,517 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 14:48:31,819 - INFO - token generated
+2024-01-26 14:48:31,835 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 14:52:22,994 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:52:22,999 - INFO - request to token endpoint
+2024-01-26 14:52:23,228 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 14:52:23,559 - INFO - token generated
+2024-01-26 14:52:23,562 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 14:56:12,578 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:56:12,580 - INFO - request to token endpoint
+2024-01-26 14:56:12,663 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 14:56:51,523 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 14:56:51,545 - INFO - request to token endpoint
+2024-01-26 14:56:51,615 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 14:58:59,394 - INFO - Api started ......
+2024-01-26 14:59:23,447 - INFO - request to token endpoint
+2024-01-26 15:02:29,284 - INFO - Api started ......
+2024-01-26 15:03:03,211 - INFO - request to token endpoint
+2024-01-26 15:03:03,221 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:03:58,936 - INFO - Api started ......
+2024-01-26 15:04:04,232 - INFO - request to token endpoint
+2024-01-26 15:04:04,248 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:04:07,590 - INFO - request to token endpoint
+2024-01-26 15:04:58,643 - INFO - request to token endpoint
+2024-01-26 15:05:16,790 - INFO - Api started ......
+2024-01-26 15:05:21,516 - INFO - request to token endpoint
+2024-01-26 15:05:21,536 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:05:21,858 - INFO - token generated
+2024-01-26 15:06:31,066 - INFO - Api started ......
+2024-01-26 15:07:08,396 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 15:07:08,406 - INFO - request to token endpoint
+2024-01-26 15:07:08,496 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:07:08,794 - INFO - token generated
+2024-01-26 15:07:08,796 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:07:43,262 - INFO - Api started ......
+2024-01-26 15:07:44,593 - INFO - request to token endpoint
+2024-01-26 15:07:44,683 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:07:44,975 - INFO - token generated
+2024-01-26 15:07:44,975 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:08:03,285 - INFO - request to token endpoint
+2024-01-26 15:08:03,373 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:08:03,669 - INFO - token generated
+2024-01-26 15:08:03,675 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:09:52,810 - INFO - request to token endpoint
+2024-01-26 15:09:52,821 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:09:53,115 - INFO - token generated
+2024-01-26 15:10:06,707 - INFO - request to create-todo endpoint
+2024-01-26 15:10:06,735 - INFO - new todo string has created 
+2024-01-26 15:12:22,494 - INFO - Api started ......
+2024-01-26 15:12:26,006 - INFO - request to token endpoint
+2024-01-26 15:12:26,081 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:12:26,378 - INFO - token generated
+2024-01-26 15:12:26,378 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:13:02,583 - INFO - Api started ......
+2024-01-26 15:13:05,853 - INFO - request to token endpoint
+2024-01-26 15:13:05,950 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:13:06,259 - INFO - token generated
+2024-01-26 15:13:06,265 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:13:30,433 - INFO - Api started ......
+2024-01-26 15:13:32,507 - INFO - request to token endpoint
+2024-01-26 15:13:32,581 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:13:32,882 - INFO - token generated
+2024-01-26 15:13:32,882 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:15:15,379 - INFO - Api started ......
+2024-01-26 15:15:27,217 - INFO - Api started ......
+2024-01-26 15:15:30,492 - INFO - request to token endpoint
+2024-01-26 15:15:30,569 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:15:30,857 - INFO - token generated
+2024-01-26 15:15:30,857 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:16:06,172 - INFO - Api started ......
+2024-01-26 15:16:11,587 - INFO - Api started ......
+2024-01-26 15:16:24,645 - INFO - request to token endpoint
+2024-01-26 15:16:24,724 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:16:25,019 - INFO - token generated
+2024-01-26 15:16:25,019 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:21:22,649 - INFO - Api started ......
+2024-01-26 15:21:35,034 - INFO - request to token endpoint
+2024-01-26 15:21:35,121 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:21:35,411 - INFO - token generated
+2024-01-26 15:21:35,411 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:23:24,175 - INFO - Api started ......
+2024-01-26 15:23:51,493 - INFO - Api started ......
+2024-01-26 15:26:03,368 - INFO - Api started ......
+2024-01-26 15:26:10,886 - INFO - request to token endpoint
+2024-01-26 15:26:10,953 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:26:11,254 - INFO - token generated
+2024-01-26 15:26:11,270 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:33:50,116 - INFO - Api started ......
+2024-01-26 15:35:07,603 - INFO - request to token endpoint
+2024-01-26 15:35:07,689 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:35:07,985 - INFO - token generated
+2024-01-26 15:35:07,987 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:38:33,540 - INFO - Api started ......
+2024-01-26 15:38:43,485 - INFO - request to token endpoint
+2024-01-26 15:38:43,565 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:38:43,854 - INFO - token generated
+2024-01-26 15:38:43,870 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:38:43,888 - INFO - request to token endpoint
+2024-01-26 15:38:44,155 - INFO - token generated
+2024-01-26 15:38:44,155 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:40:09,798 - INFO - Api started ......
+2024-01-26 15:40:11,581 - INFO - request to token endpoint
+2024-01-26 15:40:11,668 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:40:11,951 - INFO - token generated
+2024-01-26 15:40:11,951 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:40:12,114 - INFO - request to token endpoint
+2024-01-26 15:40:12,383 - INFO - token generated
+2024-01-26 15:40:12,383 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:41:04,348 - INFO - Api started ......
+2024-01-26 15:41:05,911 - INFO - request to token endpoint
+2024-01-26 15:41:05,978 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:41:06,272 - INFO - token generated
+2024-01-26 15:41:06,275 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:41:06,278 - INFO - request to token endpoint
+2024-01-26 15:41:06,553 - INFO - token generated
+2024-01-26 15:41:06,553 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:42:06,553 - INFO - Api started ......
+2024-01-26 15:42:08,385 - INFO - Api started ......
+2024-01-26 15:43:05,014 - INFO - request to token endpoint
+2024-01-26 15:43:05,096 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:43:05,390 - INFO - token generated
+2024-01-26 15:43:05,393 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:43:05,399 - INFO - request to token endpoint
+2024-01-26 15:43:05,670 - INFO - token generated
+2024-01-26 15:43:05,670 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:46:33,368 - INFO - Api started ......
+2024-01-26 15:46:36,606 - INFO - request to token endpoint
+2024-01-26 15:46:36,683 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:46:36,964 - INFO - token generated
+2024-01-26 15:46:36,964 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:46:36,980 - INFO - request to token endpoint
+2024-01-26 15:46:37,258 - INFO - token generated
+2024-01-26 15:46:37,258 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:47:10,853 - INFO - Api started ......
+2024-01-26 15:47:12,655 - INFO - request to token endpoint
+2024-01-26 15:47:12,744 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:47:13,024 - INFO - token generated
+2024-01-26 15:47:13,040 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:47:13,040 - INFO - request to token endpoint
+2024-01-26 15:47:13,309 - INFO - token generated
+2024-01-26 15:47:13,309 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:50:25,851 - INFO - Api started ......
+2024-01-26 15:51:03,661 - INFO - Api started ......
+2024-01-26 15:51:20,511 - INFO - Api started ......
+2024-01-26 15:52:04,986 - INFO - Api started ......
+2024-01-26 15:52:11,374 - INFO - request to token endpoint
+2024-01-26 15:52:11,455 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:52:11,750 - INFO - token generated
+2024-01-26 15:52:11,752 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:53:03,422 - INFO - Api started ......
+2024-01-26 15:53:05,144 - INFO - request to token endpoint
+2024-01-26 15:53:05,229 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:53:05,524 - INFO - token generated
+2024-01-26 15:53:05,526 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:53:05,533 - INFO - request to create-todo endpoint
+2024-01-26 15:53:05,560 - INFO - new todo Test Todo has created 
+2024-01-26 15:53:05,561 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 15:53:41,792 - INFO - request to token endpoint
+2024-01-26 15:53:41,879 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:53:42,191 - INFO - token generated
+2024-01-26 15:53:42,195 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:53:42,202 - INFO - request to create-todo endpoint
+2024-01-26 15:53:42,229 - INFO - new todo Test Todo has created 
+2024-01-26 15:53:42,233 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 15:54:01,718 - INFO - request to token endpoint
+2024-01-26 15:54:01,803 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:54:02,103 - INFO - token generated
+2024-01-26 15:54:02,107 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 15:54:02,113 - INFO - request to create-todo endpoint
+2024-01-26 15:54:02,141 - INFO - new todo Test Todo has created 
+2024-01-26 15:54:02,143 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 15:55:42,524 - INFO - Api started ......
+2024-01-26 15:56:55,192 - INFO - Api started ......
+2024-01-26 15:57:45,695 - INFO - Api started ......
+2024-01-26 15:58:54,151 - INFO - Api started ......
+2024-01-26 15:59:03,316 - INFO - request to token endpoint
+2024-01-26 15:59:03,417 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 15:59:03,722 - INFO - token generated
+2024-01-26 15:59:03,725 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 16:02:03,318 - INFO - Api started ......
+2024-01-26 16:02:22,391 - INFO - Api started ......
+2024-01-26 16:02:28,353 - INFO - request to token endpoint
+2024-01-26 16:02:28,448 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 16:02:28,755 - INFO - token generated
+2024-01-26 16:02:28,758 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 16:02:28,767 - INFO - request to create-todo endpoint
+2024-01-26 16:02:28,969 - INFO - new todo Test Todo has created 
+2024-01-26 16:02:28,978 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:11:07,057 - INFO - Api started ......
+2024-01-26 16:11:11,296 - INFO - request to token endpoint
+2024-01-26 16:11:11,388 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 16:11:11,721 - INFO - token generated
+2024-01-26 16:11:11,725 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 16:11:11,733 - INFO - request to create-todo endpoint
+2024-01-26 16:11:11,770 - INFO - new todo Test Todo has created 
+2024-01-26 16:11:11,773 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:11:11,792 - INFO - request to create-todo endpoint
+2024-01-26 16:11:11,795 - INFO - new todo Test Todo has created 
+2024-01-26 16:11:11,800 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:11:11,809 - INFO - request to get-todo endpoint
+2024-01-26 16:11:11,811 - INFO - request to get-todo endpoint done execution
+2024-01-26 16:11:11,823 - INFO - HTTP Request: GET http://testserver/get-todo/17 "HTTP/1.1 200 OK"
+2024-01-26 16:11:11,876 - INFO - request to get-all-todo endpoint
+2024-01-26 16:11:11,888 - INFO - request to get-all-todo endpoint completed
+2024-01-26 16:11:11,901 - INFO - HTTP Request: GET http://testserver/get-all-todos/ "HTTP/1.1 200 OK"
+2024-01-26 16:11:11,942 - INFO - request to create-todo endpoint
+2024-01-26 16:11:11,947 - INFO - new todo Test Todo has created 
+2024-01-26 16:11:11,955 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:11:12,396 - INFO - request to create-todo endpoint
+2024-01-26 16:11:12,403 - INFO - new todo Test Todo has created 
+2024-01-26 16:11:12,405 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:11:12,409 - INFO - request to delete-todo endpoint
+2024-01-26 16:11:12,417 - INFO - todo with 19 is deleted
+2024-01-26 16:11:12,420 - INFO - HTTP Request: DELETE http://testserver/delete-todo/19 "HTTP/1.1 200 OK"
+2024-01-26 16:12:02,889 - INFO - Api started ......
+2024-01-26 16:12:06,436 - INFO - request to token endpoint
+2024-01-26 16:12:06,523 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 16:12:06,830 - INFO - token generated
+2024-01-26 16:12:06,833 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 16:12:06,842 - INFO - request to create-todo endpoint
+2024-01-26 16:12:06,872 - INFO - new todo Test Todo has created 
+2024-01-26 16:12:06,876 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:06,891 - INFO - request to create-todo endpoint
+2024-01-26 16:12:06,898 - INFO - new todo Test Todo has created 
+2024-01-26 16:12:06,904 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:06,909 - INFO - request to get-todo endpoint
+2024-01-26 16:12:06,918 - INFO - request to get-todo endpoint done execution
+2024-01-26 16:12:06,921 - INFO - HTTP Request: GET http://testserver/get-todo/21 "HTTP/1.1 200 OK"
+2024-01-26 16:12:06,929 - INFO - request to get-all-todo endpoint
+2024-01-26 16:12:06,937 - INFO - request to get-all-todo endpoint completed
+2024-01-26 16:12:06,940 - INFO - HTTP Request: GET http://testserver/get-all-todos/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:06,953 - INFO - request to create-todo endpoint
+2024-01-26 16:12:06,958 - INFO - new todo Test Todo has created 
+2024-01-26 16:12:06,960 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:06,970 - INFO - request to update-todo endpoint
+2024-01-26 16:12:06,977 - INFO - todo with 22 updated
+2024-01-26 16:12:06,980 - INFO - HTTP Request: PUT http://testserver/update-todo/22 "HTTP/1.1 200 OK"
+2024-01-26 16:12:07,234 - INFO - request to create-todo endpoint
+2024-01-26 16:12:07,255 - INFO - new todo Test Todo has created 
+2024-01-26 16:12:07,257 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:07,262 - INFO - request to delete-todo endpoint
+2024-01-26 16:12:07,267 - INFO - todo with 23 is deleted
+2024-01-26 16:12:07,269 - INFO - HTTP Request: DELETE http://testserver/delete-todo/23 "HTTP/1.1 200 OK"
+2024-01-26 16:12:33,979 - INFO - Api started ......
+2024-01-26 16:12:37,807 - INFO - request to token endpoint
+2024-01-26 16:12:37,893 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 16:12:38,199 - INFO - token generated
+2024-01-26 16:12:38,202 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 16:12:38,208 - INFO - request to create-todo endpoint
+2024-01-26 16:12:38,241 - INFO - new todo Test Todo has created 
+2024-01-26 16:12:38,244 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:38,259 - INFO - request to create-todo endpoint
+2024-01-26 16:12:38,263 - INFO - new todo Test Todo has created 
+2024-01-26 16:12:38,268 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:38,277 - INFO - request to get-todo endpoint
+2024-01-26 16:12:38,280 - INFO - request to get-todo endpoint done execution
+2024-01-26 16:12:38,285 - INFO - HTTP Request: GET http://testserver/get-todo/25 "HTTP/1.1 200 OK"
+2024-01-26 16:12:38,296 - INFO - request to get-all-todo endpoint
+2024-01-26 16:12:38,304 - INFO - request to get-all-todo endpoint completed
+2024-01-26 16:12:38,309 - INFO - HTTP Request: GET http://testserver/get-all-todos/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:38,318 - INFO - request to create-todo endpoint
+2024-01-26 16:12:38,328 - INFO - new todo Test Todo has created 
+2024-01-26 16:12:38,331 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:38,345 - INFO - request to update-todo endpoint
+2024-01-26 16:12:38,357 - INFO - todo with 26 updated
+2024-01-26 16:12:38,359 - INFO - HTTP Request: PUT http://testserver/update-todo/26 "HTTP/1.1 200 OK"
+2024-01-26 16:12:38,373 - INFO - request to create-todo endpoint
+2024-01-26 16:12:38,377 - INFO - new todo Test Todo has created 
+2024-01-26 16:12:38,380 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 16:12:38,390 - INFO - request to delete-todo endpoint
+2024-01-26 16:12:38,394 - INFO - todo with 27 is deleted
+2024-01-26 16:12:38,397 - INFO - HTTP Request: DELETE http://testserver/delete-todo/27 "HTTP/1.1 200 OK"
+2024-01-26 16:43:36,171 - INFO - Api started ......
+2024-01-26 16:44:07,155 - INFO - Api started ......
+2024-01-26 16:45:10,043 - INFO - Api started ......
+2024-01-26 16:45:21,763 - INFO - Api started ......
+2024-01-26 16:45:41,372 - INFO - Api started ......
+2024-01-26 16:47:07,071 - INFO - request to register endpoint
+2024-01-26 16:47:07,102 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 16:47:07,956 - INFO -  new user Farhan Nadeem is created
+2024-01-26 16:47:48,823 - INFO - request to token endpoint
+2024-01-26 16:47:49,868 - INFO - token generated
+2024-01-26 16:49:08,276 - INFO - request to token endpoint
+2024-01-26 16:49:08,862 - INFO - token generated
+2024-01-26 16:49:22,359 - INFO - request to create-todo endpoint
+2024-01-26 16:49:22,388 - INFO - new todo bike tunning has created 
+2024-01-26 16:50:14,188 - INFO - request to get-todo endpoint
+2024-01-26 16:50:14,192 - INFO - request to get-todo endpoint done execution
+2024-01-26 16:50:28,330 - INFO - request to get-all-todo endpoint
+2024-01-26 16:50:28,335 - INFO - request to get-all-todo endpoint completed
+2024-01-26 16:52:12,664 - INFO - request to update-todo endpoint
+2024-01-26 16:52:12,695 - INFO - todo with 28 updated
+2024-01-26 16:52:43,849 - INFO - request to delete-todo endpoint
+2024-01-26 16:52:43,853 - INFO - todo with 28 is deleted
+2024-01-26 17:28:26,535 - INFO - Api started ......
+2024-01-26 17:31:48,647 - INFO - Api started ......
+2024-01-26 17:31:53,844 - INFO - request to token endpoint
+2024-01-26 17:31:53,941 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 17:31:54,255 - INFO - token generated
+2024-01-26 17:31:54,280 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,307 - INFO - request to create-todo endpoint
+2024-01-26 17:31:54,348 - INFO - new todo Test Todo has created 
+2024-01-26 17:31:54,354 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,493 - INFO - request to create-todo endpoint
+2024-01-26 17:31:54,496 - INFO - new todo Test Todo has created 
+2024-01-26 17:31:54,498 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,503 - INFO - request to get-todo endpoint
+2024-01-26 17:31:54,505 - INFO - request to get-todo endpoint done execution
+2024-01-26 17:31:54,508 - INFO - HTTP Request: GET http://testserver/get-todo/30 "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,514 - INFO - request to get-all-todo endpoint
+2024-01-26 17:31:54,517 - INFO - request to get-all-todo endpoint completed
+2024-01-26 17:31:54,519 - INFO - HTTP Request: GET http://testserver/get-all-todos/ "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,526 - INFO - request to create-todo endpoint
+2024-01-26 17:31:54,529 - INFO - new todo Test Todo has created 
+2024-01-26 17:31:54,532 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,536 - INFO - request to update-todo endpoint
+2024-01-26 17:31:54,542 - INFO - todo with 31 updated
+2024-01-26 17:31:54,547 - INFO - HTTP Request: PUT http://testserver/update-todo/31 "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,557 - INFO - request to create-todo endpoint
+2024-01-26 17:31:54,562 - INFO - new todo Test Todo has created 
+2024-01-26 17:31:54,564 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,568 - INFO - request to delete-todo endpoint
+2024-01-26 17:31:54,573 - INFO - todo with 32 is deleted
+2024-01-26 17:31:54,576 - INFO - HTTP Request: DELETE http://testserver/delete-todo/32 "HTTP/1.1 200 OK"
+2024-01-26 17:31:54,589 - INFO - request to update-todo endpoint
+2024-01-26 17:33:28,316 - INFO - Api started ......
+2024-01-26 17:33:31,757 - INFO - request to token endpoint
+2024-01-26 17:33:31,835 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 17:33:32,149 - INFO - token generated
+2024-01-26 17:33:32,150 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,158 - INFO - request to create-todo endpoint
+2024-01-26 17:33:32,188 - INFO - new todo Test Todo has created 
+2024-01-26 17:33:32,193 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,203 - INFO - request to create-todo endpoint
+2024-01-26 17:33:32,211 - INFO - new todo Test Todo has created 
+2024-01-26 17:33:32,213 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,220 - INFO - request to get-todo endpoint
+2024-01-26 17:33:32,229 - INFO - request to get-todo endpoint done execution
+2024-01-26 17:33:32,233 - INFO - HTTP Request: GET http://testserver/get-todo/34 "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,245 - INFO - request to get-all-todo endpoint
+2024-01-26 17:33:32,248 - INFO - request to get-all-todo endpoint completed
+2024-01-26 17:33:32,251 - INFO - HTTP Request: GET http://testserver/get-all-todos/ "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,263 - INFO - request to create-todo endpoint
+2024-01-26 17:33:32,268 - INFO - new todo Test Todo has created 
+2024-01-26 17:33:32,275 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,283 - INFO - request to update-todo endpoint
+2024-01-26 17:33:32,295 - INFO - todo with 35 updated
+2024-01-26 17:33:32,298 - INFO - HTTP Request: PUT http://testserver/update-todo/35 "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,315 - INFO - request to create-todo endpoint
+2024-01-26 17:33:32,318 - INFO - new todo Test Todo has created 
+2024-01-26 17:33:32,324 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,331 - INFO - request to delete-todo endpoint
+2024-01-26 17:33:32,338 - INFO - todo with 36 is deleted
+2024-01-26 17:33:32,344 - INFO - HTTP Request: DELETE http://testserver/delete-todo/36 "HTTP/1.1 200 OK"
+2024-01-26 17:33:32,353 - INFO - request to update-todo endpoint
+2024-01-26 17:34:11,612 - INFO - request to token endpoint
+2024-01-26 17:34:11,854 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 17:34:12,156 - INFO - token generated
+2024-01-26 17:34:12,164 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,171 - INFO - request to create-todo endpoint
+2024-01-26 17:34:12,201 - INFO - new todo Test Todo has created 
+2024-01-26 17:34:12,204 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,216 - INFO - request to create-todo endpoint
+2024-01-26 17:34:12,220 - INFO - new todo Test Todo has created 
+2024-01-26 17:34:12,223 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,229 - INFO - request to get-todo endpoint
+2024-01-26 17:34:12,237 - INFO - request to get-todo endpoint done execution
+2024-01-26 17:34:12,239 - INFO - HTTP Request: GET http://testserver/get-todo/38 "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,252 - INFO - request to get-all-todo endpoint
+2024-01-26 17:34:12,254 - INFO - request to get-all-todo endpoint completed
+2024-01-26 17:34:12,257 - INFO - HTTP Request: GET http://testserver/get-all-todos/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,270 - INFO - request to create-todo endpoint
+2024-01-26 17:34:12,274 - INFO - new todo Test Todo has created 
+2024-01-26 17:34:12,280 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,286 - INFO - request to update-todo endpoint
+2024-01-26 17:34:12,294 - INFO - todo with 39 updated
+2024-01-26 17:34:12,296 - INFO - HTTP Request: PUT http://testserver/update-todo/39 "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,307 - INFO - request to create-todo endpoint
+2024-01-26 17:34:12,314 - INFO - new todo Test Todo has created 
+2024-01-26 17:34:12,316 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,321 - INFO - request to delete-todo endpoint
+2024-01-26 17:34:12,325 - INFO - todo with 40 is deleted
+2024-01-26 17:34:12,328 - INFO - HTTP Request: DELETE http://testserver/delete-todo/40 "HTTP/1.1 200 OK"
+2024-01-26 17:34:12,339 - INFO - request to update-todo endpoint
+2024-01-26 17:34:29,208 - INFO - Api started ......
+2024-01-26 17:34:31,133 - INFO - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:31,143 - INFO - request to register endpoint
+2024-01-26 17:34:31,631 - INFO - request to token endpoint
+2024-01-26 17:34:31,632 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-26 17:34:31,945 - INFO - token generated
+2024-01-26 17:34:31,952 - INFO - HTTP Request: POST http://testserver/token "HTTP/1.1 200 OK"
+2024-01-26 17:34:31,958 - INFO - request to create-todo endpoint
+2024-01-26 17:34:31,974 - INFO - new todo Test Todo has created 
+2024-01-26 17:34:31,976 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:31,988 - INFO - request to create-todo endpoint
+2024-01-26 17:34:31,992 - INFO - new todo Test Todo has created 
+2024-01-26 17:34:31,994 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:31,998 - INFO - request to get-todo endpoint
+2024-01-26 17:34:32,003 - INFO - request to get-todo endpoint done execution
+2024-01-26 17:34:32,007 - INFO - HTTP Request: GET http://testserver/get-todo/42 "HTTP/1.1 200 OK"
+2024-01-26 17:34:32,016 - INFO - request to get-all-todo endpoint
+2024-01-26 17:34:32,025 - INFO - request to get-all-todo endpoint completed
+2024-01-26 17:34:32,028 - INFO - HTTP Request: GET http://testserver/get-all-todos/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:32,040 - INFO - request to create-todo endpoint
+2024-01-26 17:34:32,043 - INFO - new todo Test Todo has created 
+2024-01-26 17:34:32,047 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:32,057 - INFO - request to update-todo endpoint
+2024-01-26 17:34:32,066 - INFO - todo with 43 updated
+2024-01-26 17:34:32,073 - INFO - HTTP Request: PUT http://testserver/update-todo/43 "HTTP/1.1 200 OK"
+2024-01-26 17:34:32,080 - INFO - request to create-todo endpoint
+2024-01-26 17:34:32,084 - INFO - new todo Test Todo has created 
+2024-01-26 17:34:32,090 - INFO - HTTP Request: POST http://testserver/create-todo/ "HTTP/1.1 200 OK"
+2024-01-26 17:34:32,094 - INFO - request to delete-todo endpoint
+2024-01-26 17:34:32,101 - INFO - todo with 44 is deleted
+2024-01-26 17:34:32,108 - INFO - HTTP Request: DELETE http://testserver/delete-todo/44 "HTTP/1.1 200 OK"
+2024-01-26 17:34:32,115 - INFO - request to update-todo endpoint

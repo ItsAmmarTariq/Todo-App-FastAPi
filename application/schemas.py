@@ -33,7 +33,7 @@ class UserIn(UserBase):
 class UserInDBBase(UserBase):
     id: int
 
-    class Config:
+    class ConfigDict:
         from_attributes = True
         arbitrary_types_allowed = True
 
@@ -61,7 +61,7 @@ class Todo(TodoCreate):
 
 
 
-    class Config:
+    class ConfigDict:
         from_attributes = True
         arbitrary_types_allowed = True
 

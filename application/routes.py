@@ -12,6 +12,11 @@ from logger import logger
 router = APIRouter()
 
 
+
+@router.get("/")
+async def read_main():
+    return {"msg": "Hello World"}
+
 @router.post("/register/", response_model=schemas.UserInDBBase)
 async def register(user_in: schemas.UserIn, db: Session = Depends(get_db)):
     logger.info("request to register endpoint")
@@ -24,7 +29,7 @@ async def register(user_in: schemas.UserIn, db: Session = Depends(get_db)):
         raise HTTPException(status_code=400, detail="Email already registered")
 
     hashed_password = security.get_password_hash(user_in.password)
-    db_user = models.User(**user_in.dict(exclude={"password"}), hashed_password=hashed_password)
+    db_user = models.User(**user_in.model_dump(exclude={"password"}), hashed_password=hashed_password)
     db.add(db_user)
     db.commit()
     db.refresh(db_user)
@@ -106,7 +111,7 @@ async def update_todo(
         raise HTTPException(status_code=404, detail="Todo not found")
 
     # Update only the fields provided in todo_update
-    for key, value in todo_update.dict().items():
+    for key, value in todo_update.model_dump().items():
         setattr(db_todo, key, value)
 
     db_todo.updated_at = datetime.utcnow()
@@ -115,21 +120,6 @@ async def update_todo(
     db.refresh(db_todo)
     logger.info(f"todo with {todo_id} updated")
     return db_todo
-
-
-
-# @router.put("/update-todo/{todo_id}", response_model=schemas.Todo)
-# async def update_todo(todo_id: int, todo_update: schemas.TodoCreate, db: Session = Depends(get_db),current_user: schemas.UserInDB = Depends(auth.get_current_user)):
-#     db_todo = db.query(models.Todo).filter(models.Todo.id == todo_id).first()
-#     if db_todo is None:
-#         raise HTTPException(status_code=404, detail="Todo not found")
-#     for key, value in todo_update.dict().items():
-#         setattr(db_todo, key, value)
-#     db.commit()
-#     db.refresh(db_todo)
-#     return db_todo
-
-
 
 
 @router.delete("/delete-todo/{todo_id}", response_model=schemas.Todo )
