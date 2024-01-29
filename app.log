@@ -665,3 +665,29 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2024-01-26 17:34:32,101 - INFO - todo with 44 is deleted
 2024-01-26 17:34:32,108 - INFO - HTTP Request: DELETE http://testserver/delete-todo/44 "HTTP/1.1 200 OK"
 2024-01-26 17:34:32,115 - INFO - request to update-todo endpoint
+2024-01-29 09:54:01,212 - INFO - Api started ......
+2024-01-29 09:56:36,612 - INFO - request to token endpoint
+2024-01-29 09:56:52,172 - INFO - request to token endpoint
+2024-01-29 09:56:52,175 - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Ammar\Desktop\Todo App\env\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-01-29 09:56:52,835 - INFO - token generated
+2024-01-29 09:57:35,012 - INFO - request to create-todo endpoint
+2024-01-29 09:57:35,037 - INFO - new todo set your github set has created 
+2024-01-29 09:58:11,856 - INFO - request to get-todo endpoint
+2024-01-29 09:58:20,906 - INFO - request to get-todo endpoint
+2024-01-29 09:58:20,910 - INFO - request to get-todo endpoint done execution
+2024-01-29 09:58:31,119 - INFO - request to get-todo endpoint
+2024-01-29 09:58:31,121 - INFO - request to get-todo endpoint done execution
+2024-01-29 09:59:35,381 - INFO - request to get-todo endpoint
+2024-01-29 09:59:35,385 - INFO - request to get-todo endpoint done execution
+2024-01-29 09:59:51,649 - INFO - request to get-todo endpoint
+2024-01-29 09:59:51,652 - INFO - request to get-todo endpoint done execution
+2024-01-29 10:00:12,283 - INFO - request to get-all-todo endpoint
+2024-01-29 10:00:12,311 - INFO - request to get-all-todo endpoint completed
+2024-01-29 10:01:25,355 - INFO - request to update-todo endpoint
+2024-01-29 10:01:35,436 - INFO - request to update-todo endpoint
+2024-01-29 10:01:35,466 - INFO - todo with 45 updated
